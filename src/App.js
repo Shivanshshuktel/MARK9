@@ -15,7 +15,7 @@ var techDictionary = {
   StockPhotos: [
     ["Pexels", "Free stock photos shared by talented creators", "https://www.pexels.com/"],
     ["Unsplash", "The internet’s source of freely usable images", "https://unsplash.com/"],
-    ["Pixabay", "Over 1.7 million+ high-quality stock images and videos", "https://pixabay.com/"]
+    ["Pixabay", "Over 1.7  million+ high-quality stock images and videos", "https://pixabay.com/"]
   ]
 };
 
