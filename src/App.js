@@ -22,7 +22,7 @@ var techDictionary = {
 var techList = Object.keys(techDictionary);
 
 export default function App() {
-  var subList = techDictionary["Starter"];
+  var subList = techDictionary["Fonts"];
 
   var [output, setOutput] = useState(subList);
 
@@ -36,7 +36,7 @@ export default function App() {
       <header>
         <h1>
           <span role="img" aria-label="tech">
-            🍜
+          💻
           </span>{" "}
           Hey techie!
         </h1>
