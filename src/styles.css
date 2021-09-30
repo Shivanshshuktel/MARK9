@@ -2,7 +2,6 @@
 
 :root {
   --background: rgb(177, 202, 255);
-  --text: rgb(255, 92, 92);
   --grey: rgb(235, 232, 228);
   --border: rgb(46, 46, 46);
 }
@@ -27,7 +26,7 @@
 header {
   margin: 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -50,7 +49,7 @@ main {
 
 
 .techList span {
-  margin: 0 1rem 1rem 0;
+  margin:  2rem 1rem 1rem 0rem;
   padding: 0.5rem;
   font-size: 0.8rem;
   border: 1px solid var(--border);
@@ -61,7 +60,7 @@ main {
 
 .showtech {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -72,7 +71,7 @@ main {
   margin: 1rem 0;
   padding: 1rem;
   background-color: var(--grey);
-  border: 1px solid var(--text);
+  border: 1px solid var(--border);
   border-radius: 0.2rem;
 }
 

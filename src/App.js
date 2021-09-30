@@ -1,21 +1,56 @@
 import "./styles.css";
 import { useState } from "react";
-
 var techDictionary = {
   Fonts: [
-    ["Google Fonts", "Library of around 1000 free licensed font families" ,"https://fonts.google.com/"],
-    ["DaFont",  "Archive of freely downloadable fonts","https://www.dafont.com/"],
-    ["1001 Free Fonts", "I think the name speaks for itself 😏", "https://www.1001freefonts.com/"]
+    [
+      "Google Fonts",
+      "Library of around 1000 free licensed font families",
+      "https://fonts.google.com/"
+    ],
+    [
+      "DaFont",
+      "Archive of freely downloadable fonts",
+      "https://www.dafont.com/"
+    ],
+    [
+      "1001 Free Fonts",
+      "I think the name speaks for itself 😏",
+      "https://www.1001freefonts.com/"
+    ]
   ],
   Icons: [
-    ["UXWing", "Well Optimized, Free icons for commercial use", "https://uxwing.com/"],
-    ["Shapedfonts Iconclub", "	8000+ free icons", "https://shapedfonts.com/iconclub/"],
-    ["Feather Icons", "Beautiful, customizable open source icons", "https://feathericons.com/"]
+    [
+      "UXWing",
+      "Well Optimized, Free icons for commercial use",
+      "https://uxwing.com/"
+    ],
+    [
+      "Shapedfonts Iconclub",
+      "	8000+ free icons",
+      "https://shapedfonts.com/iconclub/"
+    ],
+    [
+      "Feather Icons",
+      "Beautiful, customizable open source icons",
+      "https://feathericons.com/"
+    ]
   ],
   StockPhotos: [
-    ["Pexels", "Free stock photos shared by talented creators", "https://www.pexels.com/"],
-    ["Unsplash", "The internet’s source of freely usable images", "https://unsplash.com/"],
-    ["Pixabay", "Over 1.7  million+ high-quality stock images and videos", "https://pixabay.com/"]
+    [
+      "Pexels",
+      "Free stock photos shared by talented creators",
+      "https://www.pexels.com/"
+    ],
+    [
+      "Unsplash",
+      "The internet’s source of freely usable images",
+      "https://unsplash.com/"
+    ],
+    [
+      "Pixabay",
+      "Over 1.7  million+ high-quality stock images and videos",
+      "https://pixabay.com/"
+    ]
   ]
 };
 
@@ -36,15 +71,15 @@ export default function App() {
       <header>
         <h1>
           <span role="img" aria-label="tech">
-          💻
+            💻
           </span>{" "}
           Hey techie!
         </h1>
       </header>
       <main>
         <p className="about">
-          See a list of various tech items, their origin and rating. Choose a
-          type to get started.
+          See a list of Web development resources, their Description and Link.
+          Choose a type to get started.
         </p>
 
         <div className="techList">
@@ -72,9 +107,7 @@ export default function App() {
         </div>
       </main>
 
-      <footer>
-       
-      </footer>
+      <footer></footer>
     </div>
   );
 }
